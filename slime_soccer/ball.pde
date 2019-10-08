@@ -5,7 +5,7 @@ class ball {
   ball() {
     x = new PVector(width/2,height/2);
     v = new PVector(0,0);
-    r = 40;
+    r = 16;
   }
 
   void render() {
