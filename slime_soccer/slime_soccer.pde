@@ -1,4 +1,4 @@
-float g = 0.3;
+float g = 0.5;
 ball b;
 slime s;
 
