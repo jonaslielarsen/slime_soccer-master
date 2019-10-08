@@ -12,12 +12,15 @@ class slime {
     moveRight = false;
   }
 
-  void render() {
-    noStroke();
+ void render() {
     fill(0, 255, 0);
     ellipse(x.x, x.y, 2*r, 2*r);
     fill(255);
     rect(x.x-r, x.y, 2*r, r);
+    fill(255);
+    ellipse(x.x+35, x.y-25, r/2, r/2);
+    fill(0);
+    ellipse(x.x+35, x.y-25, r/5, r/5);
   }
 
   void update() {
